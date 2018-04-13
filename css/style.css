@@ -1,0 +1,25 @@
+{
+    background-color:#ccaed0;
+
+    font-family: “Century Gothic”, cursive;
+    color: #000;
+}/** garis tabel **/
+table, tr{
+    border-collapse:collapse;
+    }th{
+    background:#dacde7; (memberikan warna back ground pada pada th )
+
+    font-family:”Century Gothic”;
+    color:#000;
+    padding:10px;
+    border: solid thin #FFF;
+    border-collapse:collapse;
+    border-color:#fff;
+}
+td
+{
+    padding:10px;
+    border:thin solid #FFF;
+    border-collapse:collapse;
+    border-color:#fbf3fd;
+}
