@@ -29,7 +29,7 @@ class database{
 
 	function edit($id){
 		$data = mysqli_query($this->dbCon, "select * from pelanggan where id='$id'");
-		$hasil=array(); //data yg akan di tampung dihasil
+		//$hasil=array(); //data yg akan di tampung dihasil
 		while($d = mysqli_fetch_array($data)){
 			$hasil[] = $d;
 		}

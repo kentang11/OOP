@@ -19,4 +19,6 @@ $aksi = $_GET['aksi'];
 		$db->delete($_GET['id']);
 		header("location:tampil_data.php");
 	}
+
+	//$_post[''] diambil dari form input yang berada pada input.php seperti "nama" dll
 ?>
